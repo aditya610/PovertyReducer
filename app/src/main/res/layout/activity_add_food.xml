@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent"
+
+    tools:context=".AddFood">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AddJob"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/HeadLine"
+        android:layout_width="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:id="@+id/etLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:hint="Shahdara,Shipra Mall Indrapuram"
+        android:inputType="text"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:layout_height="wrap_content"
+        android:text="Information" />
+
+    <EditText
+        android:id="@+id/etinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15dp"
+        android:hint="Name,ContactNo"
+        android:paddingLeft="10dp"
+        android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnaddloc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:backgroundTint="#ffb2f3"
+            android:minWidth="100dp"
+            android:text="add" />
+    </LinearLayout>
+</FrameLayout>

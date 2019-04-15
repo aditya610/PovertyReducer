@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "442139869930",
+    "firebase_url": "https://povertyreducer-9237d.firebaseio.com",
+    "project_id": "povertyreducer-9237d",
+    "storage_bucket": "povertyreducer-9237d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442139869930:android:ca17bb4e108a220d",
+        "android_client_info": {
+          "package_name": "com.example.android.povertyreducer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442139869930-hij2bg1t9r0pfqk3an0gu2sae9ngpt26.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.povertyreducer",
+            "certificate_hash": "3e52b106a1d0b8b65c185508a1f48da78907ffdc"
+          }
+        },
+        {
+          "client_id": "442139869930-429835rsq6sqhgauakou25v13vtv6pv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsWuW7nxEY_7FPAMianUTriiI50Pp3TVw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442139869930-429835rsq6sqhgauakou25v13vtv6pv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="#ebf4ff">
+    <LinearLayout
+
+        android:background="#ebf4ff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name "
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/etname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="your name"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textSize="16dp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+
+        android:textSize="17dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/etage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Your Age"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+
+        android:textSize="17dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text="Gender" />
+
+        <EditText
+            android:id="@+id/etgender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Your Gender"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textSize="16dp" />
+    </LinearLayout>
+</FrameLayout>
